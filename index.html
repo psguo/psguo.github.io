@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
-
+    
+    <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
     <script src="http://cdn.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
     <script src="lib/roslibjs/build/roslib.js"></script>
   </head>
@@ -47,58 +48,61 @@
     </script>
 
     <script>
-      // Connecting to ROS
-      // -----------------
-      var ros = new ROSLIB.Ros();
+      $(document).ready(
+        // Connecting to ROS
+        // -----------------
+        var ros = new ROSLIB.Ros();
 
-      // If there is an error on the backend, an 'error' emit will be emitted.
-      ros.on('error', function(error) {
-        document.getElementById('connecting').style.display = 'none';
-        document.getElementById('connected').style.display = 'none';
-        document.getElementById('closed').style.display = 'none';
-        document.getElementById('error').style.display = 'inline';
-        console.log(error);
-      });
+        // If there is an error on the backend, an 'error' emit will be emitted.
+        ros.on('error', function(error) {
+          document.getElementById('connecting').style.display = 'none';
+          document.getElementById('connected').style.display = 'none';
+          document.getElementById('closed').style.display = 'none';
+          document.getElementById('error').style.display = 'inline';
+          console.log(error);
+        });
 
-      // Find out exactly when we made a connection.
-      ros.on('connection', function() {
-        console.log('Connection made!');
-        document.getElementById('connecting').style.display = 'none';
-        document.getElementById('error').style.display = 'none';
-        document.getElementById('closed').style.display = 'none';
-        document.getElementById('connected').style.display = 'inline';
-      });
+        // Find out exactly when we made a connection.
+        ros.on('connection', function() {
+          console.log('Connection made!');
+          document.getElementById('connecting').style.display = 'none';
+          document.getElementById('error').style.display = 'none';
+          document.getElementById('closed').style.display = 'none';
+          document.getElementById('connected').style.display = 'inline';
+        });
 
-      ros.on('close', function() {
-        console.log('Connection closed.');
-        document.getElementById('connecting').style.display = 'none';
-        document.getElementById('connected').style.display = 'none';
-        document.getElementById('closed').style.display = 'inline';
-      });
+        ros.on('close', function() {
+          console.log('Connection closed.');
+          document.getElementById('connecting').style.display = 'none';
+          document.getElementById('connected').style.display = 'none';
+          document.getElementById('closed').style.display = 'inline';
+        });
 
-      // Create a connection to the rosbridge WebSocket server.
-      ros.connect('ws://192.168.1.20:9090');
+        // Create a connection to the rosbridge WebSocket server.
+        ros.connect('ws://192.168.1.20:9090');
 
-      //Subscribing to New Topic
-      //----------------------
+        //Subscribing to New Topic
+        //----------------------
 
-      // Like when publishing a topic, we first create a Topic object with details of the topic's name
-      // and message type. Note that we can call publish or subscribe on the same topic object.
-      var listener2 = new ROSLIB.Topic({
-        ros : ros,
-        name : '/move_group/display_planned_path',
-        messageType : 'moveit_msgs/DisplayTrajectory'
-      });
+        // Like when publishing a topic, we first create a Topic object with details of the topic's name
+        // and message type. Note that we can call publish or subscribe on the same topic object.
+        var listener2 = new ROSLIB.Topic({
+          ros : ros,
+          name : '/move_group/display_planned_path',
+          messageType : 'moveit_msgs/DisplayTrajectory'
+        });
 
-      var planMessage;
-      // Then we add a callback to be called every time a message is published on this topic.
-      listener2.subscribe(function(message) {
-        console.log('Received message on ' + listener2.name + ': ' + message);
-        planMessage = message;
+        var planMessage;
+        // Then we add a callback to be called every time a message is published on this topic.
+        listener2.subscribe(function(message) {
+          console.log('Received message on ' + listener2.name + ': ' + message);
+          planMessage = message;
 
-        // If desired, we can unsubscribe from the topic as well.
-        listener2.unsubscribe();
-      });
+          // If desired, we can unsubscribe from the topic as well.
+          listener2.unsubscribe();
+        });
+      )
+      
     </script>
 
 <script src="Release/UnityLoader.js"></script>
