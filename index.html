@@ -9,8 +9,8 @@
     <script src="TemplateData/UnityProgress.js"></script>
     
     <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
-    <script src="http://cdn.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
-    <script src="lib/roslibjs/build/roslib.js"></script>
+    <script type="text/javascript" src="lib/eventemitter2/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="lib/roslibjs/roslib.js"></script>
   </head>
   <body class="template">
     <div class="template-wrap clear">
@@ -48,7 +48,8 @@
     </script>
 
     <script>
-      $(document).ready(
+      $(document).ready( function() {
+
         // Connecting to ROS
         // -----------------
         var ros = new ROSLIB.Ros();
@@ -101,7 +102,7 @@
           // If desired, we can unsubscribe from the topic as well.
           listener2.unsubscribe();
         });
-      )
+      });
       
     </script>
 
