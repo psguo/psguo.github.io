@@ -11,6 +11,7 @@
     <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="lib/eventemitter2/eventemitter2.min.js"></script>
     <script type="text/javascript" src="lib/roslibjs/roslib.js"></script>
+    <script type="text/javascript" src="js/movegoal.js"></script>
   </head>
   <body class="template">
     <div class="template-wrap clear">
@@ -46,7 +47,7 @@
         memUrl: "Release/Builds.mem",
       };
     </script>
-
+    <script src="Release/UnityLoader.js"></script>
     <script>
       $(document).ready( function() {
 
@@ -102,11 +103,25 @@
           // If desired, we can unsubscribe from the topic as well.
           listener2.unsubscribe();
         });
+
+        function sendGoalPose() {
+          var cmdGoal = new ROSLIB.Topic({
+            ros : ros,
+            name : '/move_group/goal',
+            messageType : 'moveit_msgs/MoveGroupActionGoal'
+          });
+          var goal = new ROSLIB.Message(moveGoal);
+          cmdGoal.publish(goal);
+        }
+        
       });
-      
+      function SendToRosBridge(start, desire) {
+          window.alert(start);
+          window.alert(desire);
+      }
     </script>
 
-<script src="Release/UnityLoader.js"></script>
+    
 
   </body>
 </html>
