@@ -1,0 +1,54 @@
+.name-card {
+	width: 80%;
+	margin: auto;
+	min-width: 400px;
+	max-width: 700px;
+	border-radius: 0;
+	text-align: left;
+    text-shadow: none;
+    color: black;
+    padding: 50px 40px;
+    -webkit-box-shadow: 10px 10px 48px 4px rgba(0,0,0,0.22);
+	-moz-box-shadow: 10px 10px 48px 4px rgba(0,0,0,0.22);
+	box-shadow: 10px 10px 48px 4px rgba(0,0,0,0.22);
+
+}
+
+.name-card .category {
+	font-weight: bold;
+	margin: auto;
+}
+
+.name-card  .name-card-row {
+	margin-bottom: 30px;
+}
+
+.name-card .name-card-send {
+	margin-top: 50px;
+}
+
+.send-message-tab{
+	text-align: right;
+}
+
+.send-message{
+	color: black;
+	font-weight: bold;
+}
+.send-message:hover{
+	color: red;
+	text-decoration: none;
+}
+.send-message:focus{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+
+.message-input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #d2d2d2;
+    width: 100%;
+}

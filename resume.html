@@ -12,12 +12,13 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/3DButton.css" rel="stylesheet">
     <link href="css/cover.css" rel="stylesheet">
+    <link href="css/3DButton.css" rel="stylesheet">
   </head>
 
   <body>
@@ -35,24 +36,20 @@
               </div>
 
               <nav class="nav nav-masthead">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="works.html">Works</a>
-                <a class="nav-link" href="resume.html">Resume</a>
+                <a class="nav-link active" href="resume.html">Resume</a>
                 <a class="nav-link" href="contact.html">Contact</a>
               </nav>
             </div>
           </header>
 
           <main role="main" class="inner cover">
-            <h4 class="cover-heading">I Am</h4>
-			      <div class="element"></div>
-            <p class="lead">
-              <!-- <button class="btn btn-md btn-light contact-btn">EMAIL ME</button> -->
-              <button class="button button--secondary contact-btn">
-                <span class="button__inner">Email Me</span>
-              </button>
-              <a class="contact-btn-a" href="mailto:guopengsheng@gmail.com"></a>
-            </p>
+
+            <a class="download-resume-a" href="files/CV.pdf" download></a>
+            <button class="button button--secondary download-resume">
+              <span class="button__inner">Download Resume</span>
+            </button>
           </main>
 
           <footer class="mastfoot">
@@ -70,6 +67,12 @@
     <script src="js/typed.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/cover.js"></script>
+    <script>
+    $(".download-resume").click(function() {
+      $(".download-resume-a")[0].click();
+      this.blur();
+    });
+    </script>
+
   </body>
 </html>
