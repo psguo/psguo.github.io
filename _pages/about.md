@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working at Apple as a machine learning engineer and researcher. I worked with cross-functional teams to deliver AR/VR features with Apple quality and conduct research in multiple fields, publishing in ICML, CVPR & WACV. I graduated from the M.S. program of the Robotics Institute of Carnegie Mellon University, Pittsburgh, supervised by Prof. David Held. I received my Bachelor degree from Nanyang Technological University in Singapore, with a focus in robotics.
-
-My research interests include robotics, computer graphics, computer vision, and machine learning.
+Presently, I serve as an applied research scientist at Apple, collaborating with cross-functional teams to create captivating AR/VR experiences. Moreover, I conduct research in multiple domains, including neural rendering, multi-task learning, and efficient machine learning. Prior to this role, I obtained my Master's degree from the Robotics Institute of <a href="https://www.cmu.edu">CMU</a>, supervised by Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a>. I earned my Bachelor's degree from <a href="https://www.ntu.edu.sg">NTU</a> in Singapore, mentored by <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a>.

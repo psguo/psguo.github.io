@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pengsheng Guo"
 title_separator          : "-"
 name                     : &name "Pengsheng Guo"
-description              : &description "Senior Deep Learning Engineer at Apple"
+description              : &description "Senior Applied Research Scientist at Apple"
 url                      : https://psguo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "psguo/psguo.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Pengsheng Guo"
   avatar           : "avatar.png"
-  bio              : "Senior Deep Learning Engineer at Apple. Curiosity-driven Researcher."
+  bio              : "Senior Applied Research Scientist at Apple. Curiosity-driven Researcher."
   location         : "Cupertino, California"
   employer         : 
   pubmed           : 
