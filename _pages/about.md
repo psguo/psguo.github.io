@@ -8,7 +8,7 @@ redirect_from:
   /about.html
 ---
 <h1> Ciao! I'm Pengsheng Guo. </h1>
-<p> I am an applied research scientist at Apple, collaborating with cross-functional teams to create captivating virtual reality experiences. </p>
+<p> I am an applied research scientist at Apple, collaborating with cross-functional teams to create captivating virtual reality experiences for <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>. </p>
 <p> I conduct research in multiple domains, including neural rendering, multi-task learning, and efficient machine learning. </p>
 <p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning during my Master's degree at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
 
