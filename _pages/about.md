@@ -15,6 +15,11 @@ redirect_from:
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
 <p>
+<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Feng_CVRecon_Rethinking_3D_Geometric_Feature_Learning_For_Neural_Reconstruction_ICCV_2023_paper.html"><strong>CVRecon: Rethinking 3d geometric feature learning for neural reconstruction</strong></a>  
+Z Feng, L Yang, <u>P Guo</u>, B Li.
+Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023
+</p>
+<p>
 <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/a03037317560b8c5f2fb4b6466d4c439-Paper-Conference.pdf"><strong>GAUDI: A Neural Architect for Immersive 3D Scene Generation</strong></a>  
 MA Bautista*, <u>P Guo</u>*, S Abnar, W Talbott, A Toshev, Z Chen, L Dinh, S Zhai, H Goh, D Ulbricht, A Dehghan, J Susskind.
 Advances in Neural Information Processing Systems (NeurIPS), 2022
