@@ -19,37 +19,37 @@ redirect_from:
 arXiv, 2023
 </p>
 <p>
-<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Feng_CVRecon_Rethinking_3D_Geometric_Feature_Learning_For_Neural_Reconstruction_ICCV_2023_paper.html"><strong>CVRecon: Rethinking 3d geometric feature learning for neural reconstruction</strong></a>  
+<a href="https://cvrecon.ziyue.cool"><strong>CVRecon: Rethinking 3d geometric feature learning for neural reconstruction</strong></a>  
 Z Feng, L Yang, <u>P Guo</u>, B Li.
 Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023
 </p>
 <p>
-<a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/a03037317560b8c5f2fb4b6466d4c439-Paper-Conference.pdf"><strong>GAUDI: A Neural Architect for Immersive 3D Scene Generation</strong></a>  
+<a href="https://machinelearning.apple.com/research/gaudi"><strong>GAUDI: A Neural Architect for Immersive 3D Scene Generation</strong></a>  
 MA Bautista*, <u>P Guo</u>*, S Abnar, W Talbott, A Toshev, Z Chen, L Dinh, S Zhai, H Goh, D Ulbricht, A Dehghan, J Susskind.
 Advances in Neural Information Processing Systems (NeurIPS), 2022
 </p>
 <p>
-<a href="https://openaccess.thecvf.com/content/WACV2022/papers/Guo_Fast_and_Explicit_Neural_View_Synthesis_WACV_2022_paper.pdf"><strong>Fast and Explicit Neural View Synthesis</strong></a>  
+<a href="https://machinelearning.apple.com/research/fast-and-explicit-neural-view-synthesis"><strong>Fast and Explicit Neural View Synthesis</strong></a>  
 <u>P Guo</u>, MA Bautista, A Colburn, L Yang, D Ulbricht, JM Susskind, Q Shan.
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022
 </p>
 <p>
-<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MetricOpt_Learning_To_Optimize_Black-Box_Evaluation_Metrics_CVPR_2021_paper.pdf"><strong>MetricOpt: Learning to Optimize Black-Box Evaluation Metrics</strong></a>  
+<a href="https://machinelearning.apple.com/research/learning-to-optimize-black-box-evaluation-metrics"><strong>MetricOpt: Learning to Optimize Black-Box Evaluation Metrics</strong></a>  
 P C Huang, S Zhai, <u>P Guo</u>, J Susskind.
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
 </p>
 <p>
-<a href="http://proceedings.mlr.press/v119/guo20e/guo20e.pdf"><strong>Learning to Branch for Multi-Task Learning</strong></a>  
+<a href="https://machinelearning.apple.com/research/learning-to-branch-multi-task-learning"><strong>Learning to Branch for Multi-Task Learning</strong></a>  
 <u>P Guo</u>, CY Lee, D Ulbricht.
 International Conference on Machine Learning (ICML), 2020
 </p>
 <p>
-<a href="https://arxiv.org/pdf/1903.06309"><strong>Adaptive variance for changing sparse-reward environments</strong></a>  
+<a href="https://ieeexplore.ieee.org/document/8793650"><strong>Adaptive variance for changing sparse-reward environments</strong></a>  
 X Lin, <u>P Guo</u>, C Florensa, D Held.
 International Conference on Robotics and Automation (ICRA), 2019
 </p>
 <p>
-<a href="https://ieeexplore.ieee.org/abstract/document/7989490/"><strong>Deploying social robots as teaching aid in pre-school K2 classes: A proof-of-concept study</strong></a>  
+<a href="https://ieeexplore.ieee.org/document/7989490"><strong>Deploying social robots as teaching aid in pre-school K2 classes: A proof-of-concept study</strong></a>  
 A Causo, PZ Win, <u>P Guo</u>, IM Chen. 
 International Conference on Robotics and Automation (ICRA), 2017
 </p>
