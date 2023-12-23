@@ -8,12 +8,16 @@ redirect_from:
   /about.html
 ---
 <h1> Ciao! I'm Pengsheng Guo. </h1>
-<p> I am an applied research scientist at Apple, collaborating with cross-functional teams to create captivating virtual reality experiences for <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>. </p>
+<p> I am a research scientist at Apple, collaborating with cross-functional teams to create captivating virtual reality experiences for <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>. </p>
 <p> I conduct research in multiple domains, including neural rendering, multi-task learning, and efficient machine learning. </p>
 <p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning during my Master's degree at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
 
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
+<p>
+<a href="https://arxiv.org/abs/2312.02189"><strong>StableDreamer: Taming Noisy Score Distillation Sampling for Text-to-3D</strong></a> <u>P Guo</u>, H Hao, A Caccavale, Z Ren, E Zhang, Q Shan, A Sankar, A Schwing, A Colburn, F Ma
+arXiv, 2023
+</p>
 <p>
 <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Feng_CVRecon_Rethinking_3D_Geometric_Feature_Learning_For_Neural_Reconstruction_ICCV_2023_paper.html"><strong>CVRecon: Rethinking 3d geometric feature learning for neural reconstruction</strong></a>  
 Z Feng, L Yang, <u>P Guo</u>, B Li.
