@@ -15,7 +15,7 @@ redirect_from:
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
 <p>
-<a href="https://arxiv.org/abs/2312.02189"><strong>StableDreamer: Taming Noisy Score Distillation Sampling for Text-to-3D</strong></a> <u>P Guo</u>, H Hao, A Caccavale, Z Ren, E Zhang, Q Shan, A Sankar, A Schwing, A Colburn, F Ma
+<a href="https://arxiv.org/abs/2312.02189"><strong>StableDreamer: Taming Noisy Score Distillation Sampling for Text-to-3D</strong></a> <u>P Guo</u>, H Hao, A Caccavale, Z Ren, E Zhang, Q Shan, A Sankar, A Schwing, A Colburn, F Ma.
 arXiv, 2023
 </p>
 <p>
