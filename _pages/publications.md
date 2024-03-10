@@ -14,7 +14,7 @@ author_profile: true
 <!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
-
+<!-- 
 - <a href="https://openaccess.thecvf.com/content/WACV2022/papers/Guo_Fast_and_Explicit_Neural_View_Synthesis_WACV_2022_paper.pdf"><strong>Fast and Explicit Neural View Synthesis</strong></a>  
 P Guo, MA Bautista, A Colburn, L Yang, D Ulbricht, JM Susskind, Q Shan  
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022
@@ -29,4 +29,4 @@ X Lin, P Guo, C Florensa, D Held
 International Conference on Robotics and Automation (ICRA), 2019
 - <a href="https://ieeexplore.ieee.org/abstract/document/7989490/"><strong>Deploying social robots as teaching aid in pre-school K2 classes: A proof-of-concept study</strong></a>  
 A Causo, PZ Win, PS Guo, IM Chen  
-International Conference on Robotics and Automation (ICRA), 2017
+International Conference on Robotics and Automation (ICRA), 2017 -->
