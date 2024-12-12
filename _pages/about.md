@@ -33,7 +33,7 @@ redirect_from:
   </div>
 </div>
 
-<div id="cvrecon" style="display: flex; justify-content: space-between">
+<!-- <div id="cvrecon" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
       <video width="100%" autoplay loop>
           <source src="videos/cvrecon.mov" type="video/quicktime">
@@ -49,7 +49,7 @@ redirect_from:
         <sub>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023</sub>
       </p>
   </div>
-</div>
+</div> -->
 
 <div id="gaudi" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
