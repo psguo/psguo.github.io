@@ -15,6 +15,21 @@ redirect_from:
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
 
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/dit.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://cvrecon.ziyue.cool"><strong>On Inductive Biases That Enable Generalization in Diffusion Transformers</strong></a> 
+        <br />
+        <sub>Jie An, De Wang, Pengsheng Guo, Jiebo Luo, Alex Schwing</sub>
+        <br />
+        <sub>arXiv, 2024</sub>
+      </p>
+  </div>
+</div>
+
 <div id="stabledreamer" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
       <video width="100%" autoplay loop>
@@ -33,7 +48,7 @@ redirect_from:
   </div>
 </div>
 
-<!-- <div id="cvrecon" style="display: flex; justify-content: space-between">
+<div id="cvrecon" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
       <video width="100%" autoplay loop>
           <source src="videos/cvrecon.mov" type="video/quicktime">
@@ -49,7 +64,7 @@ redirect_from:
         <sub>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023</sub>
       </p>
   </div>
-</div> -->
+</div>
 
 <div id="gaudi" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
