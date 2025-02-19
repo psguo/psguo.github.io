@@ -17,6 +17,21 @@ redirect_from:
 
 <div id="dit" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/v-rfm.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://arxiv.org/abs/2502.09616"><strong>Variational Rectified Flow Matching</strong></a> 
+        <br />
+        <sub>Pengsheng Guo, Alex Schwing</sub>
+        <br />
+        <sub>arXiv, 2025</sub>
+      </p>
+  </div>
+</div>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
       <img src="videos/dit.png"/>
   </div>
   <div style="width: 65%; box-sizing: border-box;">
