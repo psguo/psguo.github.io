@@ -25,7 +25,7 @@ redirect_from:
         <br />
         <sub>Pengsheng Guo, Alex Schwing</sub>
         <br />
-        <sub>arXiv, 2025</sub>
+        <sub>International Conference on Machine Learning (ICML), 2025</sub>
       </p>
   </div>
 </div>
