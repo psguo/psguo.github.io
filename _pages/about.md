@@ -10,7 +10,7 @@ redirect_from:
 <h1> Ciao! I'm Pengsheng Guo. </h1>
 <p> I’m a Tech Lead Manager at Apple, working at the intersection of cutting-edge machine learning research and large-scale product deployment. I led the development and launch of the 2-bit on-device <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates">Apple Foundation Model</a>, and contributed key features to <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>, including scene understanding and Persona. </p>
 <p> I conduct research in multiple domains, including multimodal LLM, diffusion model (image, video, 3D), neural rendering, multi-task learning, neural architecture search, and network optimization. </p>
-<p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning during my graduate studies at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
+<p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning in Robotics during my graduate studies at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
 
 <h2>Tech Report</h2>
 
