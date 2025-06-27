@@ -12,7 +12,7 @@ redirect_from:
 <p> I conduct research in multiple domains, including multimodal LLM, diffusion model (image, video, 3D), neural rendering, multi-task learning, neural architecture search, and network optimization. </p>
 <p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning during my graduate studies at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
 
-<!-- <h2>Tech Report</h2>
+<h2>Tech Report</h2>
 
 <div id="dit" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
@@ -22,11 +22,11 @@ redirect_from:
       <p>
         <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"><strong>Multimodal Foundation Models</strong></a> 
         <br />
-        <sub>Apple Machine Learning Research</sub>
+        <sub>Apple Machine Learning Research Blog</sub>
         <br />
       </p>
   </div>
-</div> -->
+</div>
 
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
