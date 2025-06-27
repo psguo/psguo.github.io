@@ -22,7 +22,7 @@ redirect_from:
       <p>
         <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"><strong>Apple's On-Device and Server Foundation Language Models</strong></a> 
         <br />
-        <sub>Apple Machine Learning Research Blog</sub>
+        <sub>Apple Machine Learning Research Blog, 2025</sub>
         <br />
       </p>
   </div>
