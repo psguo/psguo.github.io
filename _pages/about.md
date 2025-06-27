@@ -20,7 +20,7 @@ redirect_from:
   </div>
   <div style="width: 65%; box-sizing: border-box;">
       <p>
-        <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"><strong>Multimodal Foundation Models</strong></a> 
+        <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"><strong>Apple's On-Device and Server Foundation Language Models</strong></a> 
         <br />
         <sub>Apple Machine Learning Research Blog</sub>
         <br />
