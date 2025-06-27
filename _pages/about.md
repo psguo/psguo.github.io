@@ -8,9 +8,25 @@ redirect_from:
   /about.html
 ---
 <h1> Ciao! I'm Pengsheng Guo. </h1>
-<p> I am a research scientist at Apple, collaborating with cross-functional teams to create captivating virtual reality experiences for <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>. </p>
-<p> I conduct research in multiple domains, including generative model (image, video, 3D), neural rendering, multi-task learning, and efficient machine learning. </p>
+<p> I’m a Tech Lead Manager at Apple, working at the intersection of cutting-edge machine learning research and large-scale product deployment. I led the development and launch of the 2-bit on-device <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates">Apple Foundation Model</a>, and contributed key features to <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>, including scene understanding and Persona. </p>
+<p> I conduct research in multiple domains, including multimodal LLM, diffusion model (image, video, 3D), neural rendering, multi-task learning, neural architecture search, and network optimization. </p>
 <p> I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning during my graduate studies at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
+
+<h2>Tech Report</h2>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/AFM_icon_dark.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"><strong>Multimodal Foundation Models</strong></a> 
+        <br />
+        <sub>Apple Machine Learning Research</sub>
+        <br />
+      </p>
+  </div>
+</div>
 
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
@@ -24,6 +40,21 @@ redirect_from:
         <a href="https://arxiv.org/abs/2502.09616"><strong>Variational Rectified Flow Matching</strong></a> 
         <br />
         <sub>Pengsheng Guo, Alex Schwing</sub>
+        <br />
+        <sub>International Conference on Machine Learning (ICML), 2025</sub>
+      </p>
+  </div>
+</div>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/commvq.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://arxiv.org/abs/2506.18879"><strong>CommVQ: Commutative Vector Quantization for KV Cache Compression</strong></a> 
+        <br />
+        <sub>Junyan Li, Yang Zhang, Muhammad Yusuf Hassan, Talha Chafekar, Tianle Cai, Zhile Ren, Pengsheng Guo, Foroozan Karimzadeh, Colorado Reed, Chong Wang, Chuang Gan</sub>
         <br />
         <sub>International Conference on Machine Learning (ICML), 2025</sub>
       </p>
