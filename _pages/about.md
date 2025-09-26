@@ -8,7 +8,7 @@ redirect_from:
   /about.html
 ---
 <h1> Ciao! I'm Pengsheng Guo. </h1>
-<p> I’m a Tech Lead Manager at Apple, working at the intersection of cutting-edge machine learning research and large-scale product deployment. I led the development and launch of the 2-bit on-device <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates">Apple Foundation Model</a>, and contributed key features to <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>, including scene understanding and Persona. </p>
+<p> I’m a Tech Lead Manager at Apple, working at the intersection of cutting-edge machine learning research and large-scale product deployment. I led the development and launch of the 2-bit on-device <a href="https://machinelearning.apple.com/research/apple-foundation-models-2025-updates">Apple Foundation Model</a>, now running on hundreds of millions of iPhones, iPads, and Macs. I also contributed several core features to <a href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>, including scene understanding and Persona. </p>
 <p> I conduct research in multiple domains, including multimodal LLM, diffusion model (image, video, 3D), neural rendering, multi-task learning, neural architecture search, and network optimization. </p>
 <p> I work closely with Professor <a href="https://alexander-schwing.de">Alex Schwing</a> on generative models. Previously, I worked with Professor <a href="https://www.ri.cmu.edu/ri-faculty/david-held/">David Held</a> on Reinforcement Learning in Robotics during my graduate studies at <a href="https://www.cmu.edu">CMU</a> Robotics Institute. I worked with Professor <a href="https://www3.ntu.edu.sg/home/michen/edu.html">I-Ming Chen</a> on Robotic Manipulation during undergrad at <a href="https://www.ntu.edu.sg">NTU</a>, Singapore. </p>
 
@@ -30,6 +30,51 @@ redirect_from:
 
 <h2>Publications</h2>
 <p> (* indicates equal contribution)</p>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/car.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://arxiv.org/abs/2509.19300"><strong>CAR: Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching</strong></a> 
+        <br />
+        <sub>Chen Chen, Pengsheng Guo, Liangchen Song, Jiasen Lu, Rui Qian, Tsu-Jui Fu, Xinze Wang, Wei Liu, Yinfei Yang, Alex Schwing</sub>
+        <br />
+        <sub>Advances in Neural Information Processing Systems (NeurIPS), 2025</sub>
+      </p>
+  </div>
+</div>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/dit.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://arxiv.org/abs/2410.21273"><strong>On Inductive Biases That Enable Generalization in Diffusion Transformers</strong></a> 
+        <br />
+        <sub>Jie An, De Wang, Pengsheng Guo, Jiebo Luo, Alex Schwing</sub>
+        <br />
+        <sub>Advances in Neural Information Processing Systems (NeurIPS), 2025</sub>
+      </p>
+  </div>
+</div>
+
+<div id="dit" style="display: flex; justify-content: space-between">
+  <div style="width: 30%; box-sizing: border-box;">
+      <img src="videos/3dgs.png"/>
+  </div>
+  <div style="width: 65%; box-sizing: border-box;">
+      <p>
+        <a href="https://arxiv.org/abs/2508.04090"><strong>Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework</strong></a> 
+        <br />
+        <sub>Yi-Ting Chen, Ting-Hsuan Liao, Pengsheng Guo, Alexander Schwing, Jia-Bin Huang</sub>
+        <br />
+        <sub>International Conference on Computer Vision (ICCV), 2025</sub>
+      </p>
+  </div>
+</div>
 
 <div id="dit" style="display: flex; justify-content: space-between">
   <div style="width: 30%; box-sizing: border-box;">
@@ -57,21 +102,6 @@ redirect_from:
         <sub>Junyan Li, Yang Zhang, Muhammad Yusuf Hassan, Talha Chafekar, Tianle Cai, Zhile Ren, Pengsheng Guo, Foroozan Karimzadeh, Colorado Reed, Chong Wang, Chuang Gan</sub>
         <br />
         <sub>International Conference on Machine Learning (ICML), 2025</sub>
-      </p>
-  </div>
-</div>
-
-<div id="dit" style="display: flex; justify-content: space-between">
-  <div style="width: 30%; box-sizing: border-box;">
-      <img src="videos/dit.png"/>
-  </div>
-  <div style="width: 65%; box-sizing: border-box;">
-      <p>
-        <a href="https://cvrecon.ziyue.cool"><strong>On Inductive Biases That Enable Generalization in Diffusion Transformers</strong></a> 
-        <br />
-        <sub>Jie An, De Wang, Pengsheng Guo, Jiebo Luo, Alex Schwing</sub>
-        <br />
-        <sub>arXiv, 2024</sub>
       </p>
   </div>
 </div>
